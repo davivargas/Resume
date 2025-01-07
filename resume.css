@@ -1,0 +1,46 @@
+html {
+    font-family: "Calibri", sans-serif;
+}
+
+body {
+    font-family: "Calibri", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #414141;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    height: 20%;
+    text-align: center;
+}
+
+header>h1 {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 48pt;
+    font-weight: 300;
+    background-color: #414141;
+    color: white;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+        "side side side main main main main main main main main main";
+}
+
+#sidebar {
+    grid-area: side;
+    display: flex;
+    flex-direction: column;
+}
+
+#main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+}
