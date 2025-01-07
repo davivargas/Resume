@@ -20,7 +20,7 @@ header>h1 {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-size: 48pt;
+    font-size: 56pt;
     font-weight: 300;
     background-color: #414141;
     color: white;
@@ -30,16 +30,37 @@ header>h1 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas:
-        "side side side main main main main main main main main main";
+        "side side side side main main main main main main main main";
 }
 
 #sidebar {
     grid-area: side;
     display: flex;
     flex-direction: column;
+    margin: 0.5rem 1rem 0 2.5rem;
+}
+
+#sidebar h2 {
+    margin-bottom: 0;
+}
+
+#sidebar ul {
+    margin-top: 0;
+}
+
+#contact-container>p {
+    display: flex;
+    align-items: center;
+    font-size: 11pt;
+}
+
+#contact-container>p>i {
+    margin-right: 1rem;
+    font-size: 16pt;
 }
 
 #main {
+    margin-left: 1rem;
     grid-area: main;
     display: flex;
     flex-direction: column;
