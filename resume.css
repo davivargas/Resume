@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    margin: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
     padding: 0;
     height: 20%;
     text-align: center;
@@ -30,7 +30,7 @@ header>h1 {
 h2 {
     display: flex;
     align-items: center;
-    /* color: rgb(85, 167, 221); */
+    color: rgb(85, 167, 221);
 }
 
 h2 i {
@@ -38,7 +38,7 @@ h2 i {
 }
 
 #contact-container i {
-    /* color: rgb(33, 33, 146); */
+    color: rgb(85, 167, 221);
 }
 
 #grid-container {
@@ -54,7 +54,7 @@ h2 i {
     flex-direction: column;
     margin: 0.5rem 0rem 0 2.5rem;
     padding-right: 2rem;
-    border-right: 0.5px solid #414141;
+    border-right: 0.1px solid #41414134;
 }
 
 #sidebar h2 {
@@ -93,7 +93,7 @@ h2 i {
 }
 
 #self-learning {
-    padding-right: 2rem;
+    padding-right: 3rem;
 }
 
 #self-learning>div {
@@ -121,7 +121,7 @@ h2 i {
 }
 
 #projects {
-    padding-right: 2rem;
+    padding-right: 3rem;
 }
 
 #projects>div {
@@ -145,7 +145,7 @@ h2 i {
 }
 
 #work {
-    padding-right: 2rem;
+    padding-right: 3rem;
 }
 
 #work>div {
@@ -169,7 +169,7 @@ h2 i {
 }
 
 #extracurricular {
-    padding-right: 2rem;
+    padding-right: 3rem;
 }
 
 #extracurricular>div {
@@ -193,7 +193,7 @@ h2 i {
 }
 
 #education {
-    padding-right: 2rem;
+    padding-right: 3rem;
 }
 
 #education>div {
