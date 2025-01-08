@@ -27,6 +27,14 @@ header>h1 {
     color: white;
 }
 
+/* h2 {
+    color: rgb(85, 167, 221);
+}
+
+#contact-container i {
+    color: rgb(33, 33, 146);
+} */
+
 #grid-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -40,7 +48,7 @@ header>h1 {
     flex-direction: column;
     margin: 0.5rem 0rem 0 2.5rem;
     padding-right: 2rem;
-    border-right: 1px solid #414141;
+    border-right: 0.5px solid #414141;
 }
 
 #sidebar h2 {
@@ -80,7 +88,6 @@ header>h1 {
 
 #self-learning {
     padding-right: 2rem;
-    ;
 }
 
 #self-learning>div {
@@ -100,6 +107,10 @@ header>h1 {
 }
 
 #self-learning ul {
+    margin: 0;
+}
+
+#self-learning ul:first-of-type {
     margin: 0 0 0.5rem 0;
 }
 
@@ -148,5 +159,57 @@ header>h1 {
 }
 
 #work ul {
+    margin: 0 0 0.5rem 0;
+}
+
+#extracurricular {
+    padding-right: 2rem;
+}
+
+#extracurricular>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#extracurricular>div>p:first-child {
+    font-size: 12pt;
+    font-weight: 600;
     margin: 0;
+}
+
+#extracurricular>div>p~p {
+    font-size: 10pt;
+    margin: 0;
+}
+
+#extracurricular ul {
+    margin: 0;
+}
+
+#education {
+    padding-right: 2rem;
+}
+
+#education>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#education>div>p:first-child {
+    font-size: 12pt;
+    font-weight: 600;
+    margin: 0;
+}
+
+#education>div>p~p {
+    font-size: 10pt;
+    margin: 0;
+}
+
+#education ul {
+    margin: 0 0 0.5rem 0;
+}
+
+#ufes~p {
+    text-align: right;
 }
