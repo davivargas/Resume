@@ -27,6 +27,14 @@ header>h1 {
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited, a:link {
+    color: #414141;
+}
+
 h2 {
     display: flex;
     align-items: center;
@@ -74,6 +82,24 @@ h2 i {
 #contact-container>p>i {
     margin-right: 1rem;
     font-size: 16pt;
+}
+
+/* 
+#education>div {
+    padding-left: 1rem; */
+/* } */
+
+#education>div>p:first-of-type {
+    margin: 0.2rem 0 0 0;
+}
+
+#education>div>p~p {
+    font-size: 10pt;
+    margin: 0;
+}
+
+#education ul {
+    margin: 0 0 0.5rem 0;
 }
 
 #main {
@@ -186,36 +212,9 @@ h2 i {
 #extracurricular>div>p~p {
     font-size: 10pt;
     margin: 0;
+    text-align: right;
 }
 
 #extracurricular ul {
     margin: 0;
-}
-
-#education {
-    padding-right: 3rem;
-}
-
-#education>div {
-    display: flex;
-    justify-content: space-between;
-}
-
-#education>div>p:first-child {
-    font-size: 12pt;
-    font-weight: 600;
-    margin: 0;
-}
-
-#education>div>p~p {
-    font-size: 10pt;
-    margin: 0;
-}
-
-#education ul {
-    margin: 0 0 0.5rem 0;
-}
-
-#ufes~p {
-    text-align: right;
 }
