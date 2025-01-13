@@ -11,14 +11,14 @@ body {
 }
 
 header {
-    margin: 0 0 1rem 0;
+    margin: 0;
     padding: 0;
     height: 20%;
     text-align: center;
 }
 
 header>h1 {
-    margin: 0 0 2rem 0;
+    margin: 0;
     padding: 0;
     height: 100%;
     font-size: 56pt;
@@ -35,42 +35,9 @@ a:visited, a:link {
     color: #414141;
 }
 
-h2 {
+#contact-container {
     display: flex;
-    align-items: center;
-    color: rgb(85, 167, 221);
-}
-
-h2 i {
-    margin-right: 0.6rem;
-}
-
-#contact-container i {
-    color: rgb(85, 167, 221);
-}
-
-#grid-container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-areas:
-        "side side side side main main main main main main main main";
-}
-
-#sidebar {
-    grid-area: side;
-    display: flex;
-    flex-direction: column;
-    margin: 0rem 0rem 0 2.5rem;
-    padding-right: 2rem;
-    border-right: 0.1px solid #41414134;
-}
-
-#sidebar h2 {
-    margin-bottom: 0;
-}
-
-#sidebar ul {
-    margin-top: 0;
+    justify-content: space-evenly;
 }
 
 #contact-container>p {
@@ -80,146 +47,9 @@ h2 i {
 }
 
 #contact-container>p>i {
-    margin-right: 1rem;
+    margin-right: 0.3rem;
     font-size: 16pt;
+    color: rgb(85, 167, 221);
 }
 
-#education>div>p:first-of-type {
-    margin: 0.2rem 0 0 0;
-}
-
-#education>div>p~p {
-    font-size: 10pt;
-    margin: 0 0 1rem 0;
-}
-
-#education ul {
-    margin: 0 0 0.5rem 0;
-}
-
-#main {
-    margin-left: 1rem;
-    grid-area: main;
-    display: flex;
-    flex-direction: column;
-}
-
-#main h2 {
-    margin-bottom: 0;
-}
-
-#main>div>p:first-of-type {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-
-#profile {
-    padding-right: 3rem;
-}
-
-#self-learning {
-    padding-right: 3rem;
-}
-
-#self-learning>div {
-    display: flex;
-    justify-content: space-between;
-}
-
-#self-learning>div>p:first-child {
-    font-size: 12pt;
-    font-weight: 600;
-    margin: 0;
-}
-
-#self-learning>div>p~p {
-    font-size: 10pt;
-    margin: 0;
-}
-
-#self-learning ul {
-    margin: 0 0 0.5rem 0;
-}
-
-#self-learning ul:first-of-type {
-    margin: 0 0 0.5rem 0;
-}
-
-#projects {
-    padding-right: 3rem;
-}
-
-#projects>div {
-    display: flex;
-    justify-content: space-between;
-}
-
-#projects>div>p:first-child {
-    font-size: 12pt;
-    font-weight: 600;
-    margin: 0;
-}
-
-#projects>div>p~p {
-    font-size: 10pt;
-    margin: 0;
-}
-
-#projects ul {
-    margin: 0 0 0.5rem 0;
-}
-
-#work {
-    padding-right: 3rem;
-}
-
-#work>div {
-    display: flex;
-    justify-content: space-between;
-}
-
-#work>div>p:first-child {
-    font-size: 12pt;
-    font-weight: 600;
-    margin: 0;
-}
-
-#work>div>p~p {
-    font-size: 10pt;
-    margin: 0;
-}
-
-#work ul {
-    margin: 0 0 0.5rem 0;
-}
-
-#extracurricular {
-    padding-right: 3rem;
-}
-
-#extracurricular>div {
-    display: flex;
-    justify-content: space-between;
-}
-
-#extracurricular>div>p:first-child {
-    font-size: 12pt;
-    font-weight: 600;
-    margin: 0;
-    padding-right: 1rem;
-}
-
-#extracurricular>div>p~p {
-    font-size: 10pt;
-    margin: 0;
-    text-align: right;
-    white-space: nowrap;
-}
-
-#extracurricular ul {
-    margin: 0 0 0.5rem 0;
-}
-
-#gpa {
-    font-size: 12pt;
-}
+#date {}
